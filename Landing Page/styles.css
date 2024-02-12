@@ -1,0 +1,195 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.logo {
+  cursor: pointer;
+}
+nav li a:hover {
+  color: #cc4b2b;
+  padding-bottom: 8px;
+  border-bottom: solid 2px #cc4b2b;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: rgb(151, 137, 137); */
+  padding: 0 6em;
+  margin-bottom: 2rem;
+  align-items: center;
+}
+.ContactUs {
+  color: white;
+  background-color: #57ace7;
+  align-items: center;
+  border-radius: 10px;
+  padding: 1em;
+  margin-top: 2rem;
+  transform: translateY(-30%);
+  font-weight: bold;
+  font-size: medium;
+}
+.ContactUs:hover {
+  background-color: #2083ca;
+}
+ul {
+  list-style: none;
+}
+li {
+  display: inline-block;
+  padding: 0 1em;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 30px;
+  /* padding: 0 2rem; */
+}
+.heroLeft {
+  width: 80%;
+  padding-left: 4rem;
+}
+
+.heroLeft > h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 0.5em 0;
+}
+.heroLeft p {
+  color: #2083ca;
+}
+
+.heroRight {
+  width: 100%;
+}
+.heroCarImg {
+  width: 100%;
+}
+
+.backgroundImg {
+  position: absolute;
+  top: 70%;
+  width: 100%;
+  background-color: #303030;
+  height: 10rem;
+  z-index: -999;
+  align-items: center;
+}
+.backgroundImg > h2 {
+  color: white;
+  padding-left: 5rem;
+  font-size: 2.5rem;
+  width: 15em;
+  padding-top: 2rem;
+}
+.discover,
+.bookNow {
+  color: white;
+  background-color: #57ace7;
+  align-items: center;
+  border-radius: 10px;
+  border: none;
+  padding: 1em;
+  margin: 10px;
+  font-weight: bold;
+  font-size: medium;
+  cursor: pointer;
+  width: 10em;
+}
+
+.discover:hover,
+.bookNow:hover {
+  background-color: #2083ca;
+}
+
+/* Product gallery */
+.productGallery {
+  display: flex;
+  justify-content: center;
+  padding: 4rem;
+}
+
+.exploreDiv {
+  height: 250px;
+}
+
+.exploreDiv h1 {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  padding: 20px 0;
+}
+.exploreDiv p {
+  color: #2083ca;
+}
+
+.discover {
+  margin: 2.5rem 0;
+}
+
+.productGallery div {
+  margin: 10px;
+}
+.productGallery img {
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+.productGallery img:hover {
+  transform: scale(1.1);
+}
+
+/* div {
+  border: 1px solid black;
+} */
+
+.spacialProduct {
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem 4rem;
+  padding-bottom: 2rem;
+}
+.spacialProductLeft {
+  width: 50%;
+}
+.spacialProductLeft h1 {
+  font-size: 2.5rem;
+  color: #2083ca;
+  padding-bottom: 1.5rem;
+}
+.spacialProductLeft h3 {
+  color: #2083ca;
+  padding: 1rem 0;
+}
+.spacialProductLeft p {
+  color: #303030;
+}
+
+footer {
+  background-color: #303030;
+  margin-left: 20%;
+  align-items: center;
+  text-align: center;
+  padding: 4rem;
+  color: white;
+  margin-top: 5rem;
+}
+.footerCar {
+  position: absolute;
+  left: -2%;
+  top: 305%;
+}
+
+footer h1 {
+  padding: 1rem 0;
+}
